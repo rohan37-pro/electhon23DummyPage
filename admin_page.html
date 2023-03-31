@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin_page.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Admin Page</h1>
+    </div>
+    <div class="form-container">
+        <form class="form-element">
+            <label class="lebels" >Select State</label>
+            <select class="input-box" >
+                <option> West Bengal </option>
+                <option> Uttar Pradesh </option>
+            </select>
+            <label class="lebels" > Select District</label>
+            <select class="input-box" placeholder="enter your Voter ID" type="text" >
+                <option> North 24 Pargana </option>
+                <option> South 24 Pargana </option>
+            </select>
+            <label class="lebels" >Select Area</label>
+            <select class="input-box" placeholder="enter your phone number" type="text" >
+                <option> Barasat </option>
+                <option> Bongaon </option>
+            </select>
+            <button class="submit-button" type="submit"> Show Result </button>
+        </form>
+    </div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col"> Total Voter </th>
+                    <th scope="col"> Already Voted </th>
+                    <th scope="col"> Pending votes </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td > 182304 </td>
+                    <td > 90234 </td>
+                    <td > 92070 </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
